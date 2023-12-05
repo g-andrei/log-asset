@@ -1,4 +1,4 @@
-import { Typography } from "../../components";
+import {  Typography } from "../../components";
 import {
   AnimationImageStyled,
   FirstHeroContainerStyled,
@@ -22,10 +22,14 @@ const Hero = () => {
               make your personality into technology.
             </Typography>
 
-            <div style={{ width: "66%" }}>
+            <div style={{ width: "64%" }}>
               <Typography
                 variant="paragraph"
-                style={{ lineHeight: "14px", marginTop: "20px" }}
+                style={{
+                  lineHeight: "14px",
+                  marginTop: "20px",
+                  marginBottom: "30px",
+                }}
               >
                 Robot technology is faster with the latest systems that make it
                 possible your partner and ready to serve your needs. EnttTer
