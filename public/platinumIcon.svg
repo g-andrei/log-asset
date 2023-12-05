@@ -1,0 +1,13 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="24.25px" height="21.25px">
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M1.750,10.250 L21.750,10.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M5.200,3.360 L1.750,10.250 L1.750,16.250 C1.750,16.780 1.961,17.289 2.336,17.664 C2.711,18.039 3.220,18.250 3.750,18.250 L19.750,18.250 C20.280,18.250 20.789,18.039 21.164,17.664 C21.539,17.289 21.750,16.780 21.750,16.250 L21.750,10.250 L18.300,3.360 C18.134,3.027 17.879,2.746 17.563,2.550 C17.247,2.354 16.882,2.250 16.510,2.250 L6.990,2.250 C6.618,2.250 6.253,2.354 5.937,2.550 C5.621,2.746 5.366,3.027 5.200,3.360 L5.200,3.360 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M5.760,14.250 L5.750,14.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M9.760,14.250 L9.750,14.250 "/>
+</svg>

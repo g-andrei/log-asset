@@ -1,0 +1,25 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="25.25px" height="25.25px">
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M6.250,4.250 L18.250,4.250 C19.355,4.250 20.250,5.145 20.250,6.250 L20.250,18.250 C20.250,19.354 19.355,20.250 18.250,20.250 L6.250,20.250 C5.145,20.250 4.250,19.354 4.250,18.250 L4.250,6.250 C4.250,5.145 5.145,4.250 6.250,4.250 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M9.250,9.250 L15.250,9.250 L15.250,15.250 L9.250,15.250 L9.250,9.250 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M9.250,4.250 L9.250,1.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M15.250,4.250 L15.250,1.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M9.250,23.250 L9.250,20.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M15.250,23.250 L15.250,20.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M23.250,9.250 L20.250,9.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M23.250,14.250 L20.250,14.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M4.250,9.250 L1.250,9.250 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1.5px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M4.250,14.250 L1.250,14.250 "/>
+</svg>
