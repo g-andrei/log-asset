@@ -1,5 +1,12 @@
+import { Header } from "./Views";
+import Theme from "./themes";
+
 function App() {
-  return <div>hello</div>;
+  return (
+    <Theme>
+      <Header />
+    </Theme>
+  );
 }
 
 export default App;

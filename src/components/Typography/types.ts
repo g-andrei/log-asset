@@ -21,8 +21,5 @@ export type TypograpyProps = {
   children: ReactNode;
   textTransform?: string;
   style?: React.CSSProperties;
+  href?: string;
 };
-
-export interface StyledTypographyProps {
-  variant: keyof typeof Tags;
-}
