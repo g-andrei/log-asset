@@ -14,6 +14,7 @@ const colors: Colors = {
   surfaces: {
     primary: "#1b088c",
     secondary: "#0a0148",
+    button: "#f57437",
   },
 };
 

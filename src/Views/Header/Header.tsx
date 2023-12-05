@@ -1,3 +1,5 @@
+import { Button, Typography } from "../../components";
+import colors from "../../themes/colors";
 import { HeaderContainerStyled, MenuItem, MenuList } from "./Header.styled";
 import Link from "./Link";
 
@@ -26,7 +28,15 @@ const Header = () => {
           </MenuItem>
         ))}
       </MenuList>
-      <button> Shop</button>
+      <Button>
+        <img src="shopIcon.svg" alt="shop icon" />
+        <Typography
+          variant="paragraph"
+          style={{ color: `${colors.text.primary}` }}
+        >
+          Shop
+        </Typography>
+      </Button>
     </HeaderContainerStyled>
   );
 };
