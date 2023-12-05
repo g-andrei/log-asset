@@ -2,7 +2,7 @@ import { Breakpoints } from "./theme";
 
 const breakpoints: Breakpoints = {
   desktop: {
-    width: "1440px",
+    width: "720px",
   },
   mobile: {
     width: "188px",

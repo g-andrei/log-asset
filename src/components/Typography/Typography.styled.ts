@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { BreakPoints, Tags, StyledTypographyProps } from "./types";
+import { BreakPoints, Tags, TypograpyProps } from "./types";
 import typography from "../../themes/typography";
 import breakpoints from "../../themes/breackpoints";
 
@@ -10,9 +10,10 @@ const getStyles = (variant: keyof typeof Tags, breakpoint: BreakPoints) => css`
   font-size: ${typography[variant].fontSize[breakpoint]};
   font-family: ${typography[variant].fontFamily[breakpoint]};
   color: ${typography[variant].color[breakpoint]};
+  text-decoration: none;
 `;
 
-const StyledTypography = styled.p<StyledTypographyProps>`
+const StyledTypography = styled.p<TypograpyProps>`
   @media (min-width: ${mobileBreakpoint}) and (max-width: ${desktopBreakpoint}) {
     ${(props) => getStyles(props.variant, BreakPoints.Mobile)}
   }
