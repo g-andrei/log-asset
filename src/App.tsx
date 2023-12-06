@@ -1,4 +1,4 @@
-import { Features, Header, Hero } from "./Views";
+import { Features, Footer, Header, Hero } from "./Views";
 import Theme from "./themes";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <Footer />
     </Theme>
   );
 }
