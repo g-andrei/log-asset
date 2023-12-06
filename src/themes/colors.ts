@@ -16,6 +16,7 @@ const colors: Colors = {
     secondary: "#0a0148",
     emailInput: "#3e2ea2",
     button: "#f57437",
+    featureBackground: "#fafbfb",
   },
 };
 

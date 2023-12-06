@@ -1,3 +1,4 @@
 import { mobileBreakpoint, desktopBreakpoint } from "./breakPoint";
+import { isMobile } from "./isMobile";
 
-export { mobileBreakpoint, desktopBreakpoint };
+export { mobileBreakpoint, desktopBreakpoint, isMobile };

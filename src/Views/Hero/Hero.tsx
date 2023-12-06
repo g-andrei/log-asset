@@ -1,5 +1,6 @@
 import { EmailTextBox, Typography } from "../../components";
-import breakpoints from "../../themes/breackpoints";
+import { isMobile } from "../../utils";
+
 import {
   AnimationImageStyled,
   FirstHeroContainerStyled,
@@ -8,9 +9,6 @@ import {
 } from "./Hero.styled";
 
 const Hero = () => {
-  const mobileBreakPoints = parseInt(breakpoints.mobile.width);
-  const isMobile = window.innerWidth <= mobileBreakPoints;
-
   return (
     <>
       <FirstHeroContainerStyled>
@@ -25,7 +23,7 @@ const Hero = () => {
               style={{
                 textTransform: "uppercase",
                 fontWeight: "800",
-                lineHeight: `${isMobile ? `22px` : `40px`}`,
+                lineHeight: isMobile ? `22px` : `40px`,
               }}
             >
               make your personality into technology.
