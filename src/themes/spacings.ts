@@ -2,6 +2,7 @@ import { Spacings } from "./theme";
 
 const spacings: Spacings = {
   main: {
+    s6: "6px",
     s8: "8px",
     s10: "10px",
     s20: "20px",

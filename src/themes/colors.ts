@@ -14,7 +14,8 @@ const colors: Colors = {
   surfaces: {
     primary: "#1b088c",
     secondary: "#0a0148",
-    emailInput: "#3e2ea2"
+    emailInput: "#3e2ea2",
+    button: "#f57437",
   },
 };
 

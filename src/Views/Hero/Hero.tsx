@@ -1,4 +1,4 @@
-import {  Typography } from "../../components";
+import { EmailTextBox, Typography } from "../../components";
 import {
   AnimationImageStyled,
   FirstHeroContainerStyled,
@@ -35,7 +35,7 @@ const Hero = () => {
                 possible your partner and ready to serve your needs. EnttTer
                 email to get product launch information
               </Typography>
-              <div style={{ height: "100px" }}></div>
+              <EmailTextBox />
               <div
                 style={{
                   width: "66%",
