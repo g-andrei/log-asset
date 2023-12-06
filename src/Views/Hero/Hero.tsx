@@ -1,5 +1,7 @@
 import { EmailTextBox, Typography } from "../../components";
-import breakpoints from "../../themes/breackpoints";
+import spacings from "../../themes/spacings";
+import { isMobile } from "../../utils";
+
 import {
   AnimationImageStyled,
   FirstHeroContainerStyled,
@@ -8,9 +10,6 @@ import {
 } from "./Hero.styled";
 
 const Hero = () => {
-  const mobileBreakPoints = parseInt(breakpoints.mobile.width);
-  const isMobile = window.innerWidth <= mobileBreakPoints;
-
   return (
     <>
       <FirstHeroContainerStyled>
@@ -25,7 +24,7 @@ const Hero = () => {
               style={{
                 textTransform: "uppercase",
                 fontWeight: "800",
-                lineHeight: "40px",
+                lineHeight: isMobile ? spacings.main.s22 : spacings.main.s40,
               }}
             >
               make your personality into technology.
@@ -35,9 +34,9 @@ const Hero = () => {
               <Typography
                 variant="paragraph"
                 style={{
-                  lineHeight: "14px",
-                  marginTop: "20px",
-                  marginBottom: "30px",
+                  lineHeight: spacings.main.s14,
+                  marginTop: spacings.main.s20,
+                  marginBottom: spacings.main.s30,
                 }}
               >
                 Robot technology is faster with the latest systems that make it
@@ -50,14 +49,14 @@ const Hero = () => {
                   isMobile
                     ? {
                         display: "flex",
-                        gap: "30px",
-                        marginTop: "32px",
+                        gap: spacings.main.s30,
+                        marginTop: spacings.main.s32,
                       }
                     : {
                         width: "66%",
                         display: "flex",
-                        gap: "30px",
-                        marginTop: "32px",
+                        gap: spacings.main.s30,
+                        marginTop: spacings.main.s32,
                       }
                 }
               >
@@ -65,7 +64,7 @@ const Hero = () => {
                   <img src="rtxIcon.svg" alt="rtx-1134" />
                   <Typography
                     variant="paragraph"
-                    style={{ color: "white", marginTop: "10px" }}
+                    style={{ color: "white", marginTop: spacings.main.s10 }}
                   >
                     Using the
                     <span style={{ fontWeight: "bold" }}>
@@ -79,7 +78,7 @@ const Hero = () => {
                   <img src="platinumIcon.svg" alt="platinum-2.14" />
                   <Typography
                     variant="paragraph"
-                    style={{ color: "white", marginTop: "10px" }}
+                    style={{ color: "white", marginTop: spacings.main.s10 }}
                   >
                     Useinfrared
                     <span style={{ fontWeight: "bold" }}>
@@ -89,7 +88,11 @@ const Hero = () => {
                 </div>
               </div>
               <AnimationImageStyled
-                src={isMobile ? "animationMobile.svg" : "animationDesktop.svg"}
+                src={
+                  isMobile
+                    ? "animationHeroMobile.svg"
+                    : "animationHeroDesktop.svg"
+                }
                 alt="animation"
               />
             </div>
@@ -102,7 +105,10 @@ const Hero = () => {
           <Typography variant="h3" style={{ color: "#e56c38" }}>
             1500+ Clients
           </Typography>
-          <Typography variant="h5" style={{ color: "#fff", marginTop: "14px" }}>
+          <Typography
+            variant="h5"
+            style={{ color: "#fff", marginTop: spacings.main.s14 }}
+          >
             Various clients around the world who have used our products
           </Typography>
         </SecondaryTextContainerStyled>

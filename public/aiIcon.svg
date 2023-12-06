@@ -1,0 +1,19 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="33.5px" height="33.5px">
+<path fill-rule="evenodd"  fill="rgb(74, 58, 170)"
+ d="M0.750,5.500 C0.750,2.738 2.989,0.500 5.750,0.500 L27.750,0.500 C30.511,0.500 32.750,2.738 32.750,5.500 L32.750,27.500 C32.750,30.261 30.511,32.500 27.750,32.500 L5.750,32.500 C2.989,32.500 0.750,30.261 0.750,27.500 L0.750,5.500 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M22.750,19.167 L22.750,13.833 C22.750,13.600 22.688,13.370 22.571,13.167 C22.454,12.965 22.286,12.797 22.083,12.680 L17.417,10.013 C17.214,9.896 16.984,9.835 16.750,9.835 C16.516,9.835 16.286,9.896 16.083,10.013 L11.417,12.680 C11.214,12.797 11.046,12.965 10.929,13.167 C10.812,13.370 10.750,13.600 10.750,13.833 L10.750,19.167 C10.750,19.400 10.812,19.630 10.929,19.832 C11.046,20.035 11.214,20.203 11.417,20.320 L16.083,22.987 C16.286,23.104 16.516,23.165 16.750,23.165 C16.984,23.165 17.214,23.104 17.417,22.987 L22.083,20.320 C22.286,20.203 22.454,20.035 22.571,19.832 C22.688,19.630 22.750,19.400 22.750,19.167 Z"/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M13.750,11.307 L16.750,13.040 L19.750,11.307 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M13.750,21.693 L13.750,18.233 L10.750,16.500 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M22.750,16.500 L19.750,18.233 L19.750,21.693 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M10.930,13.140 L16.750,16.507 L22.570,13.140 "/>
+<path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+ d="M16.750,16.500 L16.750,23.220 "/>
+</svg>

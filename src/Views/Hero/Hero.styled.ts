@@ -1,7 +1,5 @@
 import styled, { css } from "styled-components";
-import breakpoints from "../../themes/breackpoints";
-
-const mobileBreakpoint = breakpoints.mobile.width;
+import { mobileBreakpoint } from "../../utils";
 
 const FirstHeroContainerStyled = styled.section(({ theme }) => {
   const { spacings, colors } = theme;
@@ -11,7 +9,7 @@ const FirstHeroContainerStyled = styled.section(({ theme }) => {
     padding: ${spacings.main.s50} ${spacings.main.s62} ${spacings.main.s54};
 
     @media (max-width: ${mobileBreakpoint}) {
-      padding: 0 10px;
+      padding: 0 ${spacings.main.s10};
     }
   `;
 });
@@ -24,7 +22,7 @@ const SecondaryContainerStyled = styled.section(({ theme }) => {
     padding: ${spacings.main.s28} ${spacings.main.s62};
 
     @media (max-width: ${mobileBreakpoint}) {
-      padding: 46px 10px 30px 10px;
+      padding: ${spacings.main.s46} ${spacings.main.s10} ${spacings.main.s30};
     }
   `;
 });
@@ -34,7 +32,7 @@ const AnimationImageStyled = styled.img(({ theme }) => {
 
   return css`
     position: absolute;
-    top: ${spacings.main.s110};
+    top: ${spacings.main.s120};
     right: -28px;
 
     @media (max-width: ${mobileBreakpoint}) {

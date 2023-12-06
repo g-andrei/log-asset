@@ -1,5 +1,6 @@
 import { Typography } from "../../components";
 import { Tags } from "../../components/Typography/types";
+import spacings from "../../themes/spacings";
 
 interface LinkProps {
   variant: keyof typeof Tags;
@@ -11,7 +12,13 @@ interface LinkProps {
 const Link = ({ variant, href, label, showDropdown = false }: LinkProps) => {
   return (
     <Typography variant={variant} href={href}>
-      <div style={{ display: "flex", alignItems: "flex-end", gap: "4px" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "flex-end",
+          gap: spacings.main.s4,
+        }}
+      >
         {label}
         {showDropdown && <img src="arrowDown.svg" alt="dropdown menu" />}
       </div>
