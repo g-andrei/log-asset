@@ -25,7 +25,7 @@ const Hero = () => {
               style={{
                 textTransform: "uppercase",
                 fontWeight: "800",
-                lineHeight: "40px",
+                lineHeight: `${isMobile ? `22px` : `40px`}`,
               }}
             >
               make your personality into technology.

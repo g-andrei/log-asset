@@ -1,7 +1,5 @@
 import styled, { css } from "styled-components";
-import breakpoints from "../../themes/breackpoints";
-
-const mobileBreakpoint = breakpoints.mobile.width;
+import { mobileBreakpoint } from "../../utils";
 
 const FirstHeroContainerStyled = styled.section(({ theme }) => {
   const { spacings, colors } = theme;
