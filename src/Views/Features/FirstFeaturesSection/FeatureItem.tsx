@@ -1,5 +1,7 @@
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import { Typography } from "../../../components";
+import sizes from "../../../themes/sizes";
+import spacings from "../../../themes/spacings";
 
 interface FeatureItemProps {
   value: number;
@@ -15,8 +17,10 @@ const FeatureItem = ({
   description,
 }: FeatureItemProps) => (
   <div>
-    <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-      <div style={{ width: "68px" }}>
+    <div
+      style={{ display: "flex", alignItems: "center", gap: spacings.main.s12 }}
+    >
+      <div style={{ width: sizes.main.s68 }}>
         <CircularProgressbarWithChildren
           value={value}
           styles={{
@@ -28,7 +32,7 @@ const FeatureItem = ({
         </CircularProgressbarWithChildren>
       </div>
       <div>
-        <Typography variant="h3" style={{ marginBottom: "10px" }}>
+        <Typography variant="h3" style={{ marginBottom: spacings.main.s10 }}>
           {title}
         </Typography>
         <Typography variant="paragraph">{description}</Typography>

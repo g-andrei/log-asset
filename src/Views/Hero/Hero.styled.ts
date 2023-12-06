@@ -9,7 +9,7 @@ const FirstHeroContainerStyled = styled.section(({ theme }) => {
     padding: ${spacings.main.s50} ${spacings.main.s62} ${spacings.main.s54};
 
     @media (max-width: ${mobileBreakpoint}) {
-      padding: 0 10px;
+      padding: 0 ${spacings.main.s10};
     }
   `;
 });
@@ -22,7 +22,7 @@ const SecondaryContainerStyled = styled.section(({ theme }) => {
     padding: ${spacings.main.s28} ${spacings.main.s62};
 
     @media (max-width: ${mobileBreakpoint}) {
-      padding: 46px 10px 30px 10px;
+      padding: ${spacings.main.s46} ${spacings.main.s10} ${spacings.main.s30};
     }
   `;
 });

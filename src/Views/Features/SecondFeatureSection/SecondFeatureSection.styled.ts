@@ -2,12 +2,13 @@ import styled, { css } from "styled-components";
 import { mobileBreakpoint } from "../../../utils";
 
 const SecondFeaturesSectionContainerStyled = styled.div(({ theme }) => {
-  const { spacings } = theme;
+  const { spacings, colors } = theme;
   return css`
-    padding-top: ${spacings.main.s90};
+    padding: ${spacings.main.s90} ${spacings.main.s62} 0;
+    background-color: ${colors.surfaces.featureBackground};
 
     @media (max-width: ${mobileBreakpoint}) {
-      padding-top: ${spacings.main.s50};
+      padding: ${spacings.main.s50} ${spacings.main.s10} 0;
     }
   `;
 });

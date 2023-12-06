@@ -87,7 +87,7 @@ const Hero = () => {
                 </div>
               </div>
               <AnimationImageStyled
-                src={isMobile ? "animationMobile.svg" : "animationDesktop.svg"}
+                src={isMobile ? "animationHeroMobile.svg" : "animationHeroDesktop.svg"}
                 alt="animation"
               />
             </div>

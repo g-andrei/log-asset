@@ -3,6 +3,7 @@ import colors from "../../../themes/colors";
 import { isMobile } from "../../../utils";
 import { SecondFeaturesSectionContainerStyled } from "./SecondFeatureSection.styled";
 import FeatureColumn from "./FeatureColumn";
+import spacings from "../../../themes/spacings";
 
 const SecondFeatureSection = () => {
   return (
@@ -12,7 +13,7 @@ const SecondFeatureSection = () => {
           display: "flex",
           alignItems: "center",
           flexDirection: isMobile ? "column" : "row",
-          gap: isMobile ? "18px" : "146px",
+          gap: isMobile ? spacings.main.s18 : spacings.main.s146,
         }}
       >
         <div>

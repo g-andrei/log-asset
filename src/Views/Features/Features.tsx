@@ -1,13 +1,36 @@
-import { FeaturesContainerStyled } from "./Features.styled";
 import FirstFeaturesSection from "./FirstFeaturesSection/FirstFeaturesSection";
 import SecondFeatureSection from "./SecondFeatureSection/SecondFeatureSection";
+import ThirdFeaturesSection from "./ThirdFeaturesSection/ThirdFeaturesSection";
 
 const Features = () => {
   return (
-    <FeaturesContainerStyled>
+    <section>
       <FirstFeaturesSection />
       <SecondFeatureSection />
-    </FeaturesContainerStyled>
+      <ThirdFeaturesSection />
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+    </section>
   );
 };
 
