@@ -9,7 +9,7 @@ const FirstFeaturesSectionContainerStyled = styled.div(({ theme }) => {
     flex-wrap: wrap;
     align-items: center;
     gap: ${spacings.main.s16};
-    background-color: ${colors.surfaces.featureBackground};
+    background-color: ${colors.surfaces.tertiary};
 
     @media (max-width: ${mobileBreakpoint}) {
       padding: ${spacings.main.s30} ${spacings.main.s10} 0;

@@ -5,7 +5,7 @@ const FirstThirdFeaturesSectionContainerStyled = styled.div(({ theme }) => {
   const { spacings, colors } = theme;
   return css`
     padding: ${spacings.main.s110} ${spacings.main.s62} ${spacings.main.s58};
-    background-color: ${colors.surfaces.featureBackground};
+    background-color: ${colors.surfaces.tertiary};
     display: flex;
     justify-content: flex-end;
     position: relative;
