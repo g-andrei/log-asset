@@ -1,4 +1,4 @@
-import { Button } from "..";
+import { Button, Typography } from "..";
 import { InputContainerStyled, InputEmaylStyled } from "./EmailTextBox.styled";
 
 const EmailTextBox = () => {
@@ -9,7 +9,11 @@ const EmailTextBox = () => {
         type="email"
         id="email"
       />
-      <Button>Submit</Button>
+      <Button>
+        <Typography variant="paragraph" style={{ color: "#fff" }}>
+          Submit
+        </Typography>
+      </Button>
     </InputContainerStyled>
   );
 };

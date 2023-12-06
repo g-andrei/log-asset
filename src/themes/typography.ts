@@ -41,7 +41,7 @@ const typography = {
     color: { desktop: colors.text.secondary, mobile: colors.text.secondary },
   },
   h5: {
-    fontSize: { desktop: fontSize.text.sm, mobile: fontSize.text.sm },
+    fontSize: { desktop: fontSize.text.sm, mobile: fontSize.text.xs },
     fontFamily: { desktop: fontFamily.text, mobile: fontFamily.text },
     color: { desktop: colors.text.secondary, mobile: colors.text.secondary },
   },
