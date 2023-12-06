@@ -19,12 +19,14 @@ const ThirdFeaturesSection = () => (
           width: isMobile ? "100%" : "50%",
           display: "flex",
           flexDirection: "column",
-          gap: "20px",
+          gap: spacings.main.s20,
         }}
       >
         <Typography
           variant="h2"
-          style={{ lineHeight: isMobile ? "14px" : "36px" }}
+          style={{
+            lineHeight: isMobile ? spacings.main.s14 : spacings.main.s36,
+          }}
         >
           See how Sally's robot system works
         </Typography>
@@ -56,7 +58,7 @@ const ThirdFeaturesSection = () => (
           <Typography
             variant="h2"
             style={{
-              lineHeight: isMobile ? "14px" : "36px",
+              lineHeight: isMobile ? spacings.main.s14 : spacings.main.s36,
               color: colors.text.primary,
               textAlign: isMobile ? "left" : "end",
             }}
@@ -71,7 +73,7 @@ const ThirdFeaturesSection = () => (
           display: "flex",
           gap: isMobile ? spacings.main.s28 : spacings.main.s46,
           flexDirection: isMobile ? "column" : "row",
-          padding: "60px 0px 0px 0px",
+          padding: `${spacings.main.s60} 0px 0px 0px`,
           position: "relative",
           zIndex: "2",
         }}

@@ -35,8 +35,10 @@ const SecondFeatureSection = () => {
         style={{
           display: "flex",
           flexDirection: isMobile ? "column" : "row",
-          gap: isMobile ? "52px" : "58px",
-          padding: isMobile ? "54px 10px 0" : "54px 20px 0",
+          gap: isMobile ? spacings.main.s52 : spacings.main.s58,
+          padding: isMobile
+            ? `${spacings.main.s54} ${spacings.main.s10} 0`
+            : `${spacings.main.s54} ${spacings.main.s20} 0`,
         }}
       >
         <FeatureColumn

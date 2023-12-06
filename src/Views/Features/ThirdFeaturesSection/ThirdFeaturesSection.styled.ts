@@ -47,21 +47,14 @@ const AnimationImageStyled = styled.img(({ theme }) => {
   `;
 });
 
-const DecorationImageStyled = styled.img(({ theme }) => {
-  const { spacings } = theme;
-
-  return css`
+const DecorationImageStyled = styled.img(
+  () => css`
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 1;
-
-    @media (max-width: ${mobileBreakpoint}) {
-      /* top: ${spacings.main.s234};
-      left: 0px; */
-    }
-  `;
-});
+  `
+);
 
 export {
   FirstThirdFeaturesSectionContainerStyled,

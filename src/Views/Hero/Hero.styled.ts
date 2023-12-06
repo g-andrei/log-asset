@@ -32,7 +32,7 @@ const AnimationImageStyled = styled.img(({ theme }) => {
 
   return css`
     position: absolute;
-    top: ${spacings.main.s110};
+    top: ${spacings.main.s120};
     right: -28px;
 
     @media (max-width: ${mobileBreakpoint}) {
