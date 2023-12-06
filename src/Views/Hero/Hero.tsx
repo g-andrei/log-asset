@@ -1,16 +1,25 @@
 import { EmailTextBox, Typography } from "../../components";
+import breakpoints from "../../themes/breackpoints";
 import {
   AnimationImageStyled,
   FirstHeroContainerStyled,
   SecondaryContainerStyled,
+  SecondaryTextContainerStyled,
 } from "./Hero.styled";
 
 const Hero = () => {
+  const mobileBreakPoints = parseInt(breakpoints.mobile.width);
+  const isMobile = window.innerWidth <= mobileBreakPoints;
+
   return (
     <>
       <FirstHeroContainerStyled>
-        <div style={{ display: "flex", width: "66%" }}>
-          <div>
+        <div
+          style={
+            isMobile ? { display: "flex" } : { display: "flex", width: "66%" }
+          }
+        >
+          <div style={isMobile ? { width: "100%" } : {}}>
             <Typography
               variant="h1"
               style={{
@@ -22,7 +31,7 @@ const Hero = () => {
               make your personality into technology.
             </Typography>
 
-            <div style={{ width: "64%" }}>
+            <div style={isMobile ? {} : { width: "64%" }}>
               <Typography
                 variant="paragraph"
                 style={{
@@ -37,12 +46,20 @@ const Hero = () => {
               </Typography>
               <EmailTextBox />
               <div
-                style={{
-                  width: "66%",
-                  display: "flex",
-                  gap: "30px",
-                  marginTop: "32px",
-                }}
+                style={
+                  isMobile
+                    ? {
+                        display: "flex",
+                        gap: "30px",
+                        marginTop: "32px",
+                      }
+                    : {
+                        width: "66%",
+                        display: "flex",
+                        gap: "30px",
+                        marginTop: "32px",
+                      }
+                }
               >
                 <div style={{ textAlign: "center" }}>
                   <img src="rtxIcon.svg" alt="rtx-1134" />
@@ -50,7 +67,7 @@ const Hero = () => {
                     variant="paragraph"
                     style={{ color: "white", marginTop: "10px" }}
                   >
-                    Using the{" "}
+                    Using the
                     <span style={{ fontWeight: "bold" }}>
                       RTX-1134
                       <br />
@@ -71,23 +88,25 @@ const Hero = () => {
                   </Typography>
                 </div>
               </div>
+              <AnimationImageStyled
+                src={isMobile ? "animationMobile.svg" : "animationDesktop.svg"}
+                alt="animation"
+              />
             </div>
           </div>
         </div>
       </FirstHeroContainerStyled>
 
       <SecondaryContainerStyled>
-        <div style={{ width: "40%" }}>
+        <SecondaryTextContainerStyled>
           <Typography variant="h3" style={{ color: "#e56c38" }}>
             1500+ Clients
           </Typography>
           <Typography variant="h5" style={{ color: "#fff", marginTop: "14px" }}>
             Various clients around the world who have used our products
           </Typography>
-        </div>
+        </SecondaryTextContainerStyled>
       </SecondaryContainerStyled>
-
-      <AnimationImageStyled src="animation.svg" alt="animation" />
     </>
   );
 };
