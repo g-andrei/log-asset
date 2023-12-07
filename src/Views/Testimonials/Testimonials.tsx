@@ -8,10 +8,11 @@ import {
   SecondSectionTestimonialsStyled,
   SectionStyled,
 } from "./Testimonials.styled";
+import TestimonialsCarusel from "./TestimonialsCarusel";
 
 const Testimonials = () => {
   return (
-    <section>
+    <section style={{ position: "relative" }}>
       <FirstSectionTestimonialsStyled>
         <Typography variant="h2" style={{ fontWeight: "500" }}>
           Trusted by over
@@ -19,6 +20,8 @@ const Testimonials = () => {
           <br /> Founder customers
         </Typography>
       </FirstSectionTestimonialsStyled>
+
+      <TestimonialsCarusel />
 
       <SecondSectionTestimonialsStyled>
         <SectionStyled>
@@ -83,5 +86,6 @@ const Testimonials = () => {
     </section>
   );
 };
+
 
 export default Testimonials;

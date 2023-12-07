@@ -9,7 +9,7 @@ const FirstSectionTestimonialsStyled = styled.div(({ theme }) => {
     text-align: center;
 
     @media (max-width: ${mobileBreakpoint}) {
-      padding: ${spacings.main.s50} ${spacings.main.s10} ${spacings.main.s100};
+      padding: ${spacings.main.s50} ${spacings.main.s10} ${spacings.main.s140};
     }
   `;
 });
@@ -18,11 +18,11 @@ const SecondSectionTestimonialsStyled = styled.div(({ theme }) => {
   const { colors, spacings } = theme;
   return css`
     background: ${colors.surfaces.secondary};
-    padding: ${spacings.main.s56} ${spacings.main.s62} ${spacings.main.s44};
+    padding: ${spacings.main.s106} ${spacings.main.s62} ${spacings.main.s44};
     position: relative;
 
     @media (max-width: ${mobileBreakpoint}) {
-      padding: ${spacings.main.s100} ${spacings.main.s10} ${spacings.main.s40};
+      padding: ${spacings.main.s110} ${spacings.main.s10} ${spacings.main.s40};
     }
   `;
 });

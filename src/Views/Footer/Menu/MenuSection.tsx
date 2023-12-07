@@ -1,4 +1,5 @@
 import { Typography } from "../../../components";
+import spacings from "../../../themes/spacings";
 import { isMobile } from "../../../utils";
 
 interface MenuSectionProps {
@@ -10,9 +11,9 @@ const MenuSection = ({ title, items }: MenuSectionProps) => (
     <Typography variant="h4">{title}</Typography>
     <div
       style={{
-        marginTop: "20px",
+        marginTop: spacings.main.s20,
         display: "flex",
-        gap: "14px",
+        gap: spacings.main.s14,
         flexDirection: "column",
       }}
     >
