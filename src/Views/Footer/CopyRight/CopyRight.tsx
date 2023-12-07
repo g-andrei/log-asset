@@ -2,9 +2,13 @@ import { Typography } from "../../../components";
 import colors from "../../../themes/colors";
 import { CopyRightContainerStyled } from "./CopyRight.styled";
 
-const CopyRight = () => {
+export interface CopyRightProps {
+  color?: string;
+}
+
+const CopyRight = ({ color = colors.surfaces.secondary }: CopyRightProps) => {
   return (
-    <CopyRightContainerStyled>
+    <CopyRightContainerStyled color={color}>
       <Typography variant="paragraph" style={{ color: colors.text.primary }}>
         &copy; 2021-2022, All Rights Reserved
       </Typography>
