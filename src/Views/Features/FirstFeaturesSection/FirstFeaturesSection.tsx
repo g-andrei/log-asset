@@ -3,12 +3,14 @@ import colors from "../../../themes/colors";
 import FeatureItem from "./FeatureItem";
 import { FirstFeaturesSectionContainerStyled } from "./FirstFeaturesSection.styled";
 
-const FirstFeaturesSection: React.FC = () => (
+const FirstFeaturesSection = () => (
   <FirstFeaturesSectionContainerStyled>
     <div style={{ flex: "1" }}>
       <Typography variant="h3" style={{ fontWeight: "600" }}>
         Updated Main
-        <span style={{ color: colors.text.highlited }}><br/> features</span>
+        <span style={{ color: colors.text.highlited }}>
+          <br /> features
+        </span>
       </Typography>
     </div>
 
