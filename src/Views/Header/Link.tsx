@@ -1,6 +1,7 @@
 import { Typography } from "../../components";
 import { Tags } from "../../components/Typography/types";
 import spacings from "../../themes/spacings";
+import { isMobile } from "../../utils";
 
 interface LinkProps {
   variant: keyof typeof Tags;
@@ -17,6 +18,7 @@ const Link = ({ variant, href, label, showDropdown = false }: LinkProps) => {
           display: "flex",
           alignItems: "flex-end",
           gap: spacings.main.s4,
+          justifyContent: isMobile ? "space-between" : "normal",
         }}
       >
         {label}
