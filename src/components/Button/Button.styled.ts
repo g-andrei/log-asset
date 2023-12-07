@@ -12,5 +12,6 @@ export const StyledButton = styled.button(({ theme }) => {
     color: ${colors.text.primary};
     display: flex;
     gap: ${spacings.main.s6};
+    justify-content: center;
   `;
 });
