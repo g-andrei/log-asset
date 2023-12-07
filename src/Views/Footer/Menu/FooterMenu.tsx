@@ -1,37 +1,9 @@
-import React from "react";
-import { Typography } from "../../../components";
 import { isMobile } from "../../../utils";
 import { FooterMenuContainerStyled } from "./FooterMenu.styled";
 import spacings from "../../../themes/spacings";
+import MenuItem from "./MenuItem";
 
-interface FooterMenuProps {}
-
-interface MenuItemProps {
-  title: string;
-  items: string[];
-}
-
-const MenuItem = ({ title, items }: MenuItemProps) => (
-  <div style={{ width: isMobile ? "50%" : "20%" }}>
-    <Typography variant="h4">{title}</Typography>
-    <div
-      style={{
-        marginTop: spacings.main.s20,
-        display: "flex",
-        gap: spacings.main.s14,
-        flexDirection: "column",
-      }}
-    >
-      {items.map((item, index) => (
-        <Typography key={index} variant="anchorFooter">
-          {item}
-        </Typography>
-      ))}
-    </div>
-  </div>
-);
-
-const FooterMenu: React.FC<FooterMenuProps> = () => {
+const FooterMenu = () => {
   return (
     <FooterMenuContainerStyled>
       <MenuItem
@@ -80,6 +52,7 @@ const FooterMenu: React.FC<FooterMenuProps> = () => {
           position: "relative",
           bottom: spacings.main.s14,
           right: spacings.main.s114,
+          height: "fit-content",
         }}
       >
         <img src="decorationFooter.svg" alt="decoration footer" />
